@@ -1,11 +1,12 @@
 body {
-    font-family: Arial,  sans-serif; /* Familia de fuentes */
-    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
-    background-color: #1b1d2b; /* El color del fondo de la página web */
-    color: #bacaff; /* El color del texto*/ 
+    font-family: Inter,  sans-serif; /* Familia de fuentes */
+    font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #5988ff; /* El color del fondo de la página web */
+    color: #FFFFFF; /* El color del texto*/ 
+    text-decoration-color: #D6FF6B;
 }
 h1 {
-    color: #ff0404; /* El color de la cabecera */
-    font-size: 24px; /* El tamaño de la fuente de la cabecera */
-    font-family: Arial, Helvetica, sans-serif; /* La familia tipográfica utilizada en la cabecera */
+    color: #FD98FB; /* El color de la cabecera */
+    font-size: 40px; /* El tamaño de la fuente de la cabecera */
+    font-family: Inter, sans-serif; /* La familia tipográfica utilizada en la cabecera */
 }
