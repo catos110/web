@@ -1,3 +1,16 @@
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
 body {
     font-family: 'Inter', round, sans-serif; /* Familia de fuentes */
     font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
@@ -5,27 +18,8 @@ body {
     color: #FFFFFF; /* El color del texto*/ 
 }
 h1 {
-    color: #; /* El color de la cabecera */
-    @keyframes color-change {
-        0% {
-          color: blue;
-        }
-      
-        50% {
-          color: red;
-        }
-      
-        100% {
-          color: blue;
-        }
-    }
-    
-    h1 {
-        animation: color-change 3s infinite;
-    }
-     
-    
-    
+    color: rgb(0, 0, 73); /* El color de la cabecera */
+    animation: color-change 3s infinite;
     font-size: 40px; /* El tamaño de la fuente de la cabecera */
     font-family: 'Inter', round, sans-serif; /* La familia tipográfica utilizada en la cabecera */
     }
